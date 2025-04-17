@@ -1,0 +1,24 @@
+WebSite=>
+Frontend-Client Side/Ui(User Interface)
+Backend-Server Side - Where website’s data is stored,
+and at any time we can retrieve that data
+Database - where user information is stored
+
+
+Frontend-
+HTML - 
+Hyper Text Markup(tag<> based) Language
+It defines structure of website
+CSS - 
+Cascading Style Sheet - styling
+it beautifes our website
+JS - javascript - it provides functionality to 
+our website
+
+
+
+SUBLIME - text editor
+https://www.sublimetext.com/
+
+
+
