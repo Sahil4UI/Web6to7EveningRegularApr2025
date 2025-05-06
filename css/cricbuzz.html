@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: helvetica;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        #container{
+            width: 1000px;
+            margin:10px auto 0 auto ;
+        }
+        #header{
+            background-color: #009270;
+            display: flex;
+            /* justify-content: space-around;
+            justify-content: space-evenly;
+            justify-content: center;
+            justify-content: flex-end;
+            justify-content: space-between; */
+        }
+        .logo img{
+            width: 100%;
+        }
+        .logo{
+            width: 11%;
+        }
+        .nav{
+            width: 80%;
+        }
+        .nav ul li a{
+            color: white;
+            font-size: 14px;
+            padding: 18px 4px;
+            display: inline-block;
+            /* //ye property lagane se ab proper margin and padding ajyegi */
+        }
+        .nav ul li{
+            display: inline-block;
+        }
+       
+        .nav ul li a:hover{
+            background-color: #017F61;
+        }
+        .logo a{
+            display: inline-block;
+            padding: 8px;
+        }
+        .nav ul li i{
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div class="logo">
+                <a href="#">
+                    <img src="https://static.cricbuzz.com/images/cb_logo.svg" alt="">
+                </a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Live Scores</a></li>
+                    <li><a href="#">Live Scores</a></li>
+                    <li><a href="#">Live Scores<i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="#">Live Scores<i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="#">Live Scores<i class="fa-solid fa-caret-down"></i></a></li>
+                  
+                    <li><a href="#">Live Scores<i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="#">Live Scores<i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="#">Cricbuzz Plus</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  
+
+
+
+    <script src="https://kit.fontawesome.com/cd00034d8b.js" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
