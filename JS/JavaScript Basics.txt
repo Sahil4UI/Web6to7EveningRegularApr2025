@@ -1,0 +1,109 @@
+✅ 1. Data Types in JavaScript
+javascript
+Copy
+Edit
+x = 12;
+console.log(x);            // Output: 12
+console.log(typeof x);     // Output: 'number'
+
+x = 12.34;
+console.log(x);            // Output: 12.34
+console.log(typeof x);     // Output: 'number'
+
+x = "F-tech Institute";
+console.log(x);            // Output: 'F-tech Institute'
+console.log(typeof x);     // Output: 'string'
+
+x = 'hello';
+console.log(x);            // Output: 'hello'
+console.log(typeof x);     // Output: 'string'
+
+x = true;
+console.log(x);            // Output: true
+console.log(typeof x);     // Output: 'boolean'
+
+x = false;
+console.log(x);            // Output: false
+console.log(typeof x);     // Output: 'boolean'
+✅ 2. Arithmetic Operators
+javascript
+Copy
+Edit
+x = 15;
+y = 20;
+
+console.log(x + y);    // Output: 35
+console.log(x - y);    // Output: -5
+console.log(x * y);    // Output: 300
+console.log(x / y);    // Output: 0.75
+
+// Modulus (Remainder)
+console.log(22 % 7);   // Output: 1
+console.log(27 % 7);   // Output: 6
+
+// Division with decimal
+console.log(22 / 7);   // Output: 3.142857142857143
+
+// Floor Division (JavaScript doesn't have // operator like Python)
+console.log(Math.floor(22 / 7));  // Output: 3
+
+// Power operator
+console.log(2 ** 3);      // Output: 8
+console.log(2 ** 0.5);    // Output: 1.4142135623730951
+✅ 3. Relational Operators
+javascript
+Copy
+Edit
+x = 12;
+y = 10;
+
+console.log(x > y);    // Output: true
+console.log(x < y);    // Output: false
+console.log(x == y);   // Output: false
+console.log(x >= y);   // Output: true
+console.log(x <= y);   // Output: false
+
+x = 12;
+y = 12;
+
+console.log(x == y);   // Output: true
+✅ 4. Strict Equality (===) vs Equality (==)
+javascript
+Copy
+Edit
+x = 12;
+y = "12";
+
+console.log(typeof x);    // Output: 'number'
+console.log(typeof y);    // Output: 'string'
+
+console.log(x == y);      // Output: true (Only value is compared)
+console.log(x === y);     // Output: false (Value + datatype both checked)
+✅ 5. Type Conversion
+javascript
+Copy
+Edit
+// Convert string to number
+y = parseInt(y);         
+console.log(y);              // Output: 12
+console.log(x === y);        // Output: true
+console.log(typeof y);       // Output: 'number'
+
+// Convert number to string
+y = y.toString();            
+console.log(y);              // Output: '12'
+console.log(typeof y);       // Output: 'string'
+
+// Alternate method
+x = 12;
+console.log("" + x);         // Output: '12' (converted to string using concatenation)
+📝 Note for Students:
+== → Compares values only
+
+=== → Compares values and datatypes
+
+parseInt() → Converts string to integer
+
+toString() → Converts number to string
+
+Math.floor() → Used for floor division in JS
