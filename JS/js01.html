@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="box" type="text" name="" id="">
+    <button class="btn" onclick="show()">CLICK ME</button>
+    <h1></h1>
+   
+
+
+    <script>
+        // input =document.getElementById("box");
+        // btn = document.getElementsByClassName();
+        // h1 = document.getElementsByTagName("h1")
+
+        var box = document.querySelector("#box");
+        var btn = document.querySelector(".btn");
+        var h1 = document.querySelector("h1");
+
+        var div = document.querySelector("div");
+        // banana bracket
+        function show(){
+        
+           h1.innerText =  "Good Morning " +box.value;
+    
+        }
+
+        
+    </script>
+</body>
+</html>
